@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Dec 27 10:28:27 GMT+03:00 2017:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): экземпляр a816c00e-0160-96df-54d8-00000d87f0d8
+в каталоге базы данных C:\Users\Стас\Documents\Idea Projects\MultiPacman\pacman sun.misc.Launcher$AppClassLoader@18b4aac2 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Users\Стас\Documents\Idea Projects\MultiPacman
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''

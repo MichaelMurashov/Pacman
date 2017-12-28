@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MenuController">
+   <children>
+      <Text fill="#000000" layoutX="85.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="no user with the same" textAlignment="CENTER">
+         <font>
+            <Font name="Buxton Sketch" size="49.0" />
+         </font>
+      </Text>
+       <Text fill="#000000" layoutX="240.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" textAlignment="CENTER">
+           <font>
+               <Font name="Buxton Sketch" size="49.0" />
+           </font>
+       </Text>
+      <Text fill="#000000" layoutX="231.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="create?" textAlignment="CENTER">
+         <font>
+            <Font name="Buxton Sketch" size="49.0" />
+         </font>
+      </Text>
+      <Text fill="#000000" layoutX="208.0" layoutY="372.0" onMouseClicked="#createNewUser" strokeType="OUTSIDE" strokeWidth="0.0" text="Yes">
+         <font>
+            <Font name="Buxton Sketch" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="#000000" layoutX="348.0" layoutY="372.0" onMouseClicked="#backToEnterName" strokeType="OUTSIDE" strokeWidth="0.0" text="No">
+         <font>
+            <Font name="Buxton Sketch" size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

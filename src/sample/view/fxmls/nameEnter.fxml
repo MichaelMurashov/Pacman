@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MenuController">
+   <children>
+      <TextField fx:id="nameField" alignment="CENTER" layoutX="205.0" layoutY="150.0" text="NAME">
+         <font>
+            <Font name="Buxton Sketch" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passwordField" alignment="CENTER" layoutX="205.0" layoutY="210.0" text="PASSWORD">
+         <font>
+            <Font name="Buxton Sketch" size="15.0" />
+         </font>
+      </TextField>
+      <Text fill="#000000" layoutX="260.0" layoutY="300.0" onMouseClicked="#menu" strokeType="OUTSIDE" strokeWidth="0.0" text="Next">
+         <font>
+            <Font name="Buxton Sketch" size="35.0" />
+         </font>
+      </Text>
+      <Text fx:id="textLabel" fill="#ff0000" layoutX="180.0" layoutY="350.0" onMouseClicked="#menu" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Buxton Sketch" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
